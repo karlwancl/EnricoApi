@@ -12,12 +12,12 @@ using Flurl.Http;
 
 namespace EnricoApi
 {
-    public static class Helper
+    internal static class Helper
     {
-        public static string Name(this Enum @enum)
+        public static string Name<T>(this T @enum)
         {
             string name = @enum.ToString();
-            if (typeof(Country).GetMember(name).First().GetCustomAttribute(typeof(EnumMemberAttribute)) is EnumMemberAttribute attr && attr.IsValueSetExplicitly)
+            if (typeof(T).GetMember(name).First().GetCustomAttribute(typeof(EnumMemberAttribute)) is EnumMemberAttribute attr && attr.IsValueSetExplicitly)
                 name = attr.Value;
             return name;
         }
