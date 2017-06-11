@@ -4,10 +4,10 @@
   </PropertyGroup>
   <PropertyGroup>
     <Description>A .NET wrapper to the Enrico Service, based on .NET standard 1.4</Description>
-    <Copyright>Copyright (c) 2016 SalmonThinLion</Copyright>
+    <Copyright>Copyright (c) 2016 LppKarl</Copyright>
     <AssemblyTitle>EnricoApi</AssemblyTitle>
     <VersionPrefix>1.0.1</VersionPrefix>
-    <Authors>SalmonThinLion</Authors>
+    <Authors>LppKarl</Authors>
     <TargetFramework>netstandard1.4</TargetFramework>
     <AssemblyName>EnricoApi</AssemblyName>
     <PackageId>EnricoApi</PackageId>
@@ -16,8 +16,8 @@
       [20/12/2016] Fixed querying with region parameter
       [19/12/2016] First release
     </PackageReleaseNotes>
-    <PackageProjectUrl>https://github.com/salmonthinlion/EnricoApi</PackageProjectUrl>
-    <PackageLicenseUrl>https://github.com/salmonthinlion/EnricoApi/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/lppkarl/EnricoApi</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/lppkarl/EnricoApi/blob/master/LICENSE</PackageLicenseUrl>
     <GenerateAssemblyTitleAttribute>false</GenerateAssemblyTitleAttribute>
     <GenerateAssemblyDescriptionAttribute>false</GenerateAssemblyDescriptionAttribute>
     <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
